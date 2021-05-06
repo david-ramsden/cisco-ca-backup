@@ -6,7 +6,7 @@ This TCL script can be run on an IOS device via a kron schedule and will allow t
 ## Usage
 1. In backup_ca.tcl, edit the `ftp_server` and `ftp_path` variables.
 2. Copy the script to the IOS device, e.g. to flash:
-3. On the device, set `ip ftp username` and `ip ftp password`.
+3. On the device, set `ip ftp username` and `ip ftp password` and if appropriate `ip ftp source-interface`
 4. On the device, configure a kron schedule. For example:
 ````
 kron policy-list BACKUP_CA
