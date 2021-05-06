@@ -19,15 +19,6 @@
 # 3. This notice may not be removed or altered from any source distribution.
 #
 
-#
-# 1. Copy to flash:backup_ca.tcl
-# 2. Create a kron schedule:
-#  kron policy-list BACKUP_CA
-#   cli tclsh flash:/backup_ca.tcl
-#  kron occurance DAILY at 04:00 recurring
-#   policy-list BACKUP_CA
-# 3. Make sure "ip ftp" commands are configured (source-interface, username and password).
-
 # List of file extensions to backup.
 set file_exts {cer crl prv pub ser cnm}
 # FTP server.
