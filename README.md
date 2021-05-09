@@ -1,7 +1,7 @@
 # Backup a Cisco Certificate Authority
 
 ## Introduction
-This TCL script can be run on an IOS device via a kron schedule and will allow the relevant files stored on NVRAM of the device to be copied to an FTP server, allowing the Certificate Authority to be backed up and subsequently restored, as per the Cisco design guide for Digital Certificates/PKI (https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/DCertPKI.html#wp130755).
+This TCL script can be run on an IOS device via a kron schedule and will allow the relevant files stored on NVRAM of the device to be copied to an FTP server, allowing the Certificate Authority to be backed up and subsequently restored, as per the [Cisco design guide for Digital Certificates/PKI](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/DCertPKI.html#wp130755).
 
 ## Usage
 1. In backup_ca.tcl, edit the `ftp_server` and `ftp_path` variables.
